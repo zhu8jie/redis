@@ -44,8 +44,8 @@ make install
 
 参数 	值 	说明
 daemonize 	yes 	使Redis以守护进程模式运行
-pidfile 	/var/run/redis_端口号.pid 	设置Redis的PID文件位置
 port 	端口号 	设置Redis监听的端口号
+pidfile 	/var/run/redis_端口号.pid 	设置Redis的PID文件位置
 dir 	/var/redis/端口号 	设置持久化文件存放位置
 
 现在也可以使用下面的命令来启动和关闭Redis了
